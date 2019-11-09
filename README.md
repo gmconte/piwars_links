@@ -15,3 +15,11 @@ https://www.jetbrains.com/help/pycharm/remote-development-on-raspberry-pi.html
 
 * Dummy RPi.GPIO library to have autocomplete feature in the IDE:\
 https://github.com/Def4l71diot/RPi.GPIO-def
+
+* How to install picamera module in your dev env (not RPi):\
+  From within the virtual environment type:
+  ``` 
+  export READTHEDOCS=True
+  pip install picamera
+  ```
+  https://github.com/waveform80/picamera/issues/404
